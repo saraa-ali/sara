@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    .antic-slab-regular {
+font-family: "Antic Slab", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+  }
+  .header {
+    background-color: rgb(7, 7, 84);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  .logo {
+    width: 240px;
+    
+  }
+  .header-links a {
+    color: white;
+    padding: 20px 15px;
+    text-decoration:none;
+    border-radius: 20px;
+    
+    
+  }
+  .header-links a:hover {
+    color: rgba(245, 245, 245, 0.751);
+  }
+  .header-links button {
+    background-color: rgba(42, 165, 67, 0.663);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 15px;
+    
+  }
+  .header-links button:hover {
+    color: rgba(245, 245, 245, 0.759);
+  }
+  .land{
+    background-color: rgba(7, 7, 84);
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    height: 290px;
+    padding: 15px 30px;
+    align-items: center;
+    color: white;
+    border-radius: 0 0 50px 50px;
+  }
+  .img{
+  width: 250px;
+  }
+  
+
+
+  
